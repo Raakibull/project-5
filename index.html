@@ -4,21 +4,329 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
-<body><header class="">
+<body class="bg-[#dce4f8]">
+    <header class=" ">
 
-    <nav>
+    <nav class="mx-[140px] my-[25px] flex place-content-between bg-white p-[20px] rounded-[16px]">
+        <div class="dev-title flex">
+            <img src="assets/logo.png" alt="">
+            <div class="text-[36px] font-light">Dev<span class="font-extrabold">Board</span></div>
 
+        </div>
+        <div class="">
+            <div class="flex  items-center gap-[38px] ">
+
+                <div class="bg-[#F4F7FF] flex  items-center gap-[5px] px-2 py-1 rounded-[32px]">
+                <img class="w-[32px] h-[32px]  "  src="assets/checkbox.png" alt="">
+                <div class="text-[36px] font-extrabold ">23</div></div>
+
+
+                <div class="bg-[#F4F7FF] p-2 rounded-3xl">
+                <img class="w-[32px] h-[32px]" src="assets/theme-btn.png" alt=""></div>
+
+            </div>
+            <div class="">
+
+            </div>
+
+        </div>
+
+        
     </nav>
 
 
     </header>
     
-    <main>
+    <main class="flex mx-[140px] mb-10  ">
+        <div class="bg-white w-4/6 p-[24px] gap-[24px] rounded-3xl ">
+            <div class=" pb-6">
+
+                <div class="flex  gap-[25px]">
+                <div class="w-2/8 flex bg-[#F4F7FF] items-center rounded-[12px]"> 
+                    <div class="w-[50px] h-[50px] p-[15px] bg-white m-[20px] rounded-3xl">
+                    <img class="" src="assets/checkbox.png" alt=""></div>
+                    <div class="">
+                    <div class="font-normal text-[16px]">Task Assigned</div>
+                    <div class="font-bold text-[32px]">05</div></div>
+
+                </div>
+                <div class="w-4/8 flex bg-gradient-to-r from-[#3752FD] to-[#9BA8F8]  rounded-[12px]">
+                    <div class="flex items-center ml-10 mr-20">
+                    <img class="w-[56px] h-[64px]" src="assets/board.png" alt="">
+
+                    <div class="font-normal text-[24px] text-white">Discover Something<br> New Today!</div></div>
+
+                </div>
+                <div class="w-2/8 flex bg-[#F4F7FF]  rounded-[12px] items-center">
+                    <div class="w-[50px] h-[50px] p-[15px] bg-white m-[20px] rounded-3xl ">
+                    <img class="" src="assets/calender.png" alt=""></div>
+                    <div class="text-[22px]">
+                    <div class="font-normal">wed,</div>
+                    <div class="font-bold">Jul 28 2025 </div></div>
+
+                </div>
+            </div>
+
+
+            </div>
+           
+            <section class="bg-white p-[2px] grid grid-cols-3 gap-[36px] border-t-2 border-dashed pt-6  ">
+                <div class="bg-[#F4F7FF] rounded-xl">
+                <div class="">
+                    <div class="bg-white font-normal text-[16px] rounded-xl m-3  inline-block p-3">
+                        ShopEase
+        
+                    </div>
+                    <div class="text-[24px] font-medium m-3">  Fix Mobile Button Issue 
+        
+                    </div>
+                    <div class="bg-white text-[16px] font-normal rounded-xl m-3 p-4">Debug using Chrome <br> DevTools, check for overlappin
+        
+                    </div>
+        
+                </div>
+        
+        
+        
+        
+                <div class="flex gap-[48px] items-center m-3 border-t-2 border-dashed ">
+                    <div class="w-3/5">
+                    <div class="text-[14px] font-normal">Deadline
+        
+                    </div>
+                    <div class="text-[16px] font-medium">21 March 2025</div></div>
+                    
+                    <button class="bg-[#3752FD] w-[135px] h-[44px] items-center text-white font-medium rounded-xl w-2/5">Completed</button>
+                    
+        
+                </div>
+                
+            </div>
+
+
+
+
+
+
+            <div class="bg-[#F4F7FF] rounded-xl">
+                <div class="">
+                    <div class="bg-white font-normal text-[16px] rounded-xl m-3  inline-block p-3">
+                        CloudSync
+        
+                    </div>
+                    <div class="text-[24px] font-medium m-3">  Add Dark Mode 
+        
+                    </div>
+                    <div class="bg-white text-[16px] font-normal rounded-xl m-3 p-4">Store the user's preference in <br> localStorage, update CSS varia
+        
+                    </div>
+        
+                </div>
+        
+        
+        
+        
+                <div class="flex gap-[48px] items-center m-3 border-t-2 border-dashed ">
+                    <div class="w-3/5">
+                    <div class="text-[14px] font-normal">Deadline
+        
+                    </div>
+                    <div class="text-[16px] font-medium">21 March 2025</div></div>
+                    
+                    <button class="bg-[#3752FD] w-[135px] h-[44px] items-center text-white font-medium rounded-xl w-2/5">Completed</button>
+                    
+        
+                </div>
+                
+            </div>
+
+
+
+
+
+
+            <div class="bg-[#F4F7FF] rounded-xl">
+                <div class="">
+                    <div class="bg-white font-normal text-[16px] rounded-xl m-3  inline-block p-3">
+                        SwiftPay
+        
+                    </div>
+                    <div class="text-[24px] font-medium m-3">  Optimize  Home page  
+        
+                    </div>
+                    <div class="bg-white text-[16px] font-normal rounded-xl m-3 p-4">Debug using Chrome <br> DevTools, check for overlapping
+        
+                    </div>
+        
+                </div>
+        
+        
+        
+        
+                <div class="flex gap-[48px] items-center m-3 border-t-2 border-dashed ">
+                    <div class="w-3/5">
+                    <div class="text-[14px] font-normal">Deadline
+        
+                    </div>
+                    <div class="text-[16px] font-medium">21 March 2025</div></div>
+                    
+                    <button class="bg-[#3752FD] w-[135px] h-[44px] items-center text-white font-medium rounded-xl w-2/5">Completed</button>
+                    
+        
+                </div>
+                
+            </div>
+
+
+
+
+
+            <div class="bg-[#F4F7FF] rounded-xl">
+                <div class="">
+                    <div class="bg-white font-normal text-[16px] rounded-xl m-3  inline-block p-3">
+                        Meta
+        
+                    </div>
+                    <div class="text-[24px] font-medium m-3">  Add new emoji 🤲 
+        
+                    </div>
+                    <div class="bg-white text-[16px] font-normal rounded-xl m-3 p-4">Debug using Chrome <br> DevTools, check for overlappin
+        
+                    </div>
+        
+                </div>
+        
+        
+        
+        
+                <div class="flex gap-[48px] items-center m-3 border-t-2 border-dashed ">
+                    <div class="w-3/5">
+                    <div class="text-[14px] font-normal">Deadline
+        
+                    </div>
+                    <div class="text-[16px] font-medium">21 March 2025</div></div>
+                    
+                    <button class="bg-[#3752FD] w-[135px] h-[44px] items-center text-white font-medium rounded-xl w-2/5">Completed</button>
+                    
+        
+                </div>
+                
+            </div>
+
+
+
+
+
+
+
+            <div class="bg-[#F4F7FF] rounded-xl">
+                <div class="">
+                    <div class="bg-white font-normal text-[16px] rounded-xl m-3  inline-block p-3">
+                        Google LLC
+        
+                    </div>
+                    <div class="text-[24px] font-medium m-3">  Integrate OpenAI API  
+        
+                    </div>
+                    <div class="bg-white text-[16px] font-normal rounded-xl m-3 p-4">Debug using Chrome <br> DevTools, check for overlappin
+        
+                    </div>
+        
+                </div>
+        
+        
+        
+        
+                <div class="flex gap-[48px] items-center m-3 border-t-2 border-dashed ">
+                    <div class="w-3/5">
+                    <div class="text-[14px] font-normal">Deadline
+        
+                    </div>
+                    <div class="text-[16px] font-medium">21 March 2025</div></div>
+                    
+                    <button class="bg-[#3752FD] w-[135px] h-[44px] items-center text-white font-medium rounded-xl w-2/5">Completed</button>
+                    
+        
+                </div>
+                
+            </div>
+
+
+
+
+
+
+
+            <div class="bg-[#F4F7FF] rounded-xl">
+                <div class="">
+                    <div class="bg-white font-normal text-[16px] rounded-xl m-3  inline-block p-3">
+                        Glassdoar
+        
+                    </div>
+                    <div class="text-[24px] font-medium m-3">  Improve Job searching  
+        
+                    </div>
+                    <div class="bg-white text-[16px] font-normal rounded-xl m-3 p-4">Debug using Chrome <br> DevTools, check for overlappin
+        
+                    </div>
+        
+                </div>
+        
+        
+        
+        
+                <div class="flex gap-[48px] items-center m-3 border-t-2 border-dashed ">
+                    <div class="w-3/5">
+                    <div class="text-[14px] font-normal">Deadline
+        
+                    </div>
+                    <div class="text-[16px] font-medium">21 March 2025</div></div>
+                    
+                    <button class="bg-[#3752FD] w-[135px] h-[44px] items-center text-white font-medium rounded-xl w-2/5">Completed</button>
+                    
+        
+                </div>
+                
+            </div>
+        
+        
+        
+        
+        
+                
+        
+        
+            </section>
+
+        </div>
+        <div class="bg-white w-2/6 ml-4 rounded-3xl ">
+            <div class="flex"> 
+                <img src="assets/activity.png" alt="">
+                <div class="">Activity Log</div>
+            </div>
+            <div class="">
+                <button class="bg-[#3752FD] w-[135px] h-[44px] items-center text-white font-medium rounded-xl">
+                    Clear History
+                </button>
+            </div>
+
+
+
+
+            
+        </div>
+        
 
     </main>
+
     <footer>
 
     </footer>
