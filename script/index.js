@@ -32,3 +32,15 @@ document.querySelectorAll(".completed").forEach(button => {
 
 });
 
+// color change//
+let button = document.getElementById('colorButton');
+
+let colors = ['lightblue', 'lightgreen', 'lightcoral', 'lightyellow', 'lightpink' ,'#F4F7FF'];
+let currentColorIndex = 0;
+
+button.addEventListener('click', function() {
+    document.body.style.backgroundColor = colors[currentColorIndex];
+
+    currentColorIndex = (currentColorIndex + 1) % colors.length;
+});
+
